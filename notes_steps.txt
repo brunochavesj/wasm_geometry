@@ -1,0 +1,4 @@
+python3 -m venv stl_env
+source stl_env/bin/activate
+pip install numpy==1.26 scipy trimesh
+

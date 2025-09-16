@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>WASM Spinning Cube</title></head>
+<body style="margin:0">
+<canvas id="glcanvas" width="500" height="500"></canvas>
+<script src="main.js"></script>
+
+<div id="roll-result-overlay" style="
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 10px 15px;
+  font-family: monospace;
+  font-size: 18px;
+  border-radius: 8px;
+  display: none;
+  z-index: 10;">
+  <div id="rolls-text">Rolling...</div>
+</div>
+
+<audio id="roll-sound" src="roll.mp3" preload="auto"></audio>
+
+</body>
+</html>
+
